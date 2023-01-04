@@ -1,3 +1,5 @@
+#Terraform Practice
+
 resource "local_file" "devops" {
         filename = "/home/ubuntu/terraform-course/terraform-local/devops_automated.txt"
         content = "I am a DevOps Engineer, I know terraform."
